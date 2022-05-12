@@ -20,9 +20,8 @@ public class GreeterApp {
 		System.out.println(simon.greet(input2));
 		
 		LoudGreeter loud = new LoudGreeter(input1);
-		System.out.print(loud.greet(input2));
-		for(int i = 1; i <= input3; i++) {
-			System.out.print("!");}
+		System.out.print(loud.greet(input2, input3));
+		
 			
 		HtmlGreeter tag = new HtmlGreeter(input1);
 		System.out.println('\n'+ tag.greet(input2));
